@@ -46,7 +46,7 @@ const Footer = () => {
       </div> <hr className="border border-gray-500" />
 
       <div className="flex justify-between container py-5">
-        <p>Callegaribuilders copyright © 2022. All Rights Reserved.</p>
+        <p>SysQube copyright © 2024. All Rights Reserved.</p>
         <p>Design & Developed by SysQube Technology</p>
       </div>
     </div>

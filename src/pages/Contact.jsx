@@ -29,7 +29,7 @@ const Contact = () => {
                <div className='border-b border-gray-400 flex gap-2 pb-2'><CiMail className='text-2xl text-[#1F3745]' /><input type="email" placeholder='Email' className='bg-transparent placeholder:text-black focus:outline-none w-full' /></div>
                <div className='border-b border-gray-400 flex gap-2 pb-2'><SlScreenSmartphone className='text-2xl text-[#1F3745]' /><input type="text" placeholder='Phone' className='bg-transparent placeholder:text-black focus:outline-none w-full' /></div>
                <div className='border-b border-gray-400 flex gap-2 pb-2'><CiCircleInfo className='text-2xl text-[#1F3745]' /><input type="text" placeholder='Subject' className='bg-transparent placeholder:text-black focus:outline-none w-full' /></div>
-               <div className='border-b border-gray-400 flex gap-2 pb-2 col-span-2'><CiPen className='text-2xl text-[#1F3745]' /><textarea type="text" placeholder='Message' className='bg-transparent placeholder:text-black focus:outline-none w-full w-full h-20' /></div>
+               <div className='border-b border-gray-400 flex gap-2 pb-2 col-span-2'><CiPen className='text-2xl text-[#1F3745]' /><textarea type="text" placeholder='Message' className='bg-transparent placeholder:text-black focus:outline-none w-full h-20' /></div>
                </div>
                <button className='p-3 px-6 bg-[#1F3745] text-white flex items-center gap-1 rounded'>Get in Touch</button>
           </div>
