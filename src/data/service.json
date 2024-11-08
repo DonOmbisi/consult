@@ -1,0 +1,27 @@
+[
+     {
+          "id": 1,
+          "name": "Town Planning",
+          "image": "/images/ForService/service1.jpg"
+     },
+     {
+          "id": 2,
+          "name": "Architecture",
+          "image": "/images/ForService/service2.jpg"
+     },
+     {
+          "id": 3,
+          "name": "Structure",
+          "image": "/images/ForService/service3.jpg"
+     },
+     {
+          "id": 4,
+          "name": "HVAC",
+          "image": "/images/ForService/service4.jpg"
+     },
+     {
+          "id": 5,
+          "name": "Construction",
+          "image": "/images/ForService/service5.jpg"
+     }
+]
