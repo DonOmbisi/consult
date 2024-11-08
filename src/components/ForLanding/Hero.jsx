@@ -26,8 +26,8 @@ const Hero = () => {
 
       <div className="bg-[url('/images/mainherobg.jpg')] pb-16 pt-6 h-[100vh] bg-cover bg-left-top">
         <div className="container flex gap-16 items-center">
-        <div className="flex-1">
-          <div className="text-black text-[80px] leading-[5rem]">
+        <div className="w-[60%]">
+          <div className="text-black text-[75px] leading-[5rem]">
             <h2>Innovation & Disruption for a</h2>
             <h2 className="">
               <span className="text-[#897968]">Positive</span> Impact
@@ -38,7 +38,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="flex-1 relative h-[100vh]">
+        <div className="w-[40%] relative h-[100vh]">
           {/* <div className="flex">
           <img src="/images/herobg.jpg" alt="" className="w-[40%] h-[70vh] rounded-t-full rounded-b-full object-cover absolute left-16 bottom-0" />
           <div className="absolute w-[40%] h-[70vh] rounded-t-full rounded-b-full bg-black opacity-40 left-16 bottom-0"></div>
