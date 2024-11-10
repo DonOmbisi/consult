@@ -1,16 +1,11 @@
 import React from 'react'
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
+import Fact from './ForLanding/Fact';
 
 const AboutComp = () => {
   return (
     <>
-     <div className='container flex gap-5 py-28 items-center'>
-          <div className='flex-1'>
-               <div className='flex gap-5'>
-               <img src="/images/about1.jpg" alt="" className='w-[48%] rounded-bl-full' />
-               <img src="/images/about2.jpg" alt="" className='w-[48%] rounded-tr-full' />
-               </div>
-          </div>
+     <div className='container flex gap-5 items-center'>
 
           <div className='flex-1 ml-12'>
                <h3 className='font-bold text-sm uppercase'>about us</h3>
@@ -45,7 +40,15 @@ const AboutComp = () => {
                     </div>
                </ul>
           </div>
+
+          <div className='flex-1'>
+               <div className='flex gap-5'>
+               <img src="/images/about1.jpg" alt="" className='w-[48%] rounded-tl-full' />
+               <img src="/images/about2.jpg" alt="" className='w-[48%] rounded-br-full' />
+               </div>
+          </div>
      </div>
+     <Fact />
     </>
   )
 }

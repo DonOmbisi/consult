@@ -3,19 +3,23 @@ import Hero from "../components/ForLanding/Hero";
 import GetStart from "../components/GetStart";
 import Service from "../components/ForLanding/Service";
 import Feature from "../components/ForLanding/Feature";
-import TeamsComp from "../components/TeamsComp";
-import Leading from "../components/ForLanding/Leading";
+import OurProjects from "../components/ForLanding/OurProjects";
+import WhyChooseUs from "../components/ForLanding/WhyChooseUs";
 import AboutComp from "../components/AboutComp";
+import CEOMessage from "../components/ForLanding/CEOMessage";
+import Testimonials from "../components/ForLanding/Testimonials";
 
 const Landing = () => {
   return (
     <>
       <Hero />
       <Feature />
-      <Service />
       <AboutComp />
-      <Leading />
-      <TeamsComp />
+      <CEOMessage />
+      <Service />
+      <OurProjects />
+      <WhyChooseUs />
+      <Testimonials />
       <GetStart />
     </>
   );

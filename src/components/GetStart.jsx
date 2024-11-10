@@ -3,7 +3,7 @@ import React from 'react'
 const GetStart = () => {
   return (
     <>
-     <div className='flex gap-5 items-center py-12 justify-between'>
+     <div className='flex gap-5 items-center py-12 justify-between border-t'>
           <div><img src="/images/getstartleft.png" alt="" /></div>
 
           <div className='text-center text-lg'>

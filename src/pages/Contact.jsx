@@ -33,7 +33,11 @@ const Contact = () => {
                </div>
                <button className='p-3 px-6 bg-[#1F3745] text-white flex items-center gap-1 rounded'>Get in Touch</button>
           </div>
+
      </div>
+          <div className='container rounded-lg overflow-hidden border border-gray-300 shadow-lg mb-20 w-full h-[60vh]'>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.162207336234!2d85.32924847507972!3d27.68138107619754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19c757b96f8f%3A0x3e02763a2f6ff4e6!2sSysQube%20Technology%20Pvt.Ltd.!5e0!3m2!1sen!2snp!4v1731218117206!5m2!1sen!2snp" width="100%" height="100%" style={{border: 0, outline: "none", filter: "grayscale(0.5) contrast(1.2) hue-rotate(180deg) opacity(0.8)"}} referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
     </>
   )
 }
