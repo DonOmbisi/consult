@@ -14,9 +14,9 @@ const Testimonials = () => {
   return (
     <>
       <div className="container pb-20">
-        <div className="text-center py-20">
+        <div className="text-center py-20 pb-16">
           <h3 className="font-bold text-sm uppercase pb-3">Our Clients</h3>
-          <h2 className="text-4xl">What People Says About Us</h2>
+          <h2 className="text-4xl font-bold">What People Says About Us</h2>
         </div>
 
 <div className="flex gap-8 h-[85vh] items-center">

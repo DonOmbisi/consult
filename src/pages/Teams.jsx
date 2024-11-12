@@ -4,6 +4,7 @@ import Team from "../data/teams.json";
 import { LiaFacebookF } from "react-icons/lia";
 import { RiTwitterXFill } from "react-icons/ri";
 import { IoLogoInstagram } from "react-icons/io";
+import GetStart from "../components/GetStart";
 
 const Teams = () => {
   return (
@@ -13,8 +14,8 @@ const Teams = () => {
       <div>
         <div className="text-center py-20">
           <h3 className="text-sm font-bold uppercase">Meet our team</h3>
-          <h2 className="text-4xl font-bold py-5">People Behind Us</h2>
-          <p>
+          <h2 className="text-4xl font-bold pt-3 pb-5">People Behind Us</h2>
+          <p className="w-[40%] mx-auto">
             We specialize in creating functional and aesthetically captivating
             living spaces that reflect your unique style
           </p>
@@ -43,6 +44,7 @@ const Teams = () => {
           ))}
         </div>
       </div>
+      <GetStart />
     </>
   );
 };

@@ -17,21 +17,21 @@ const Footer = () => {
         <div className="">
           <h2 className="text-xl font-bold pb-5">Useful Links</h2>
           <ul className="leading-9">
-            <li className="flex items-center gap-2"><LuPlus />Home</li>
-            <li className="flex items-center gap-2"><LuPlus />About</li>
-            <li className="flex items-center gap-2"><LuPlus />Service</li>
-            <li className="flex items-center gap-2"><LuPlus />Project</li>
-            <li className="flex items-center gap-2"><LuPlus />Contact</li>
+            <li className="flex items-center gap-2 group"><LuPlus className="group-hover:rotate-180 duration-500" />Home</li>
+            <li className="flex items-center gap-2 group"><LuPlus className="group-hover:rotate-180 duration-500" />About</li>
+            <li className="flex items-center gap-2 group"><LuPlus className="group-hover:rotate-180 duration-500" />Service</li>
+            <li className="flex items-center gap-2 group"><LuPlus className="group-hover:rotate-180 duration-500" />Project</li>
+            <li className="flex items-center gap-2 group"><LuPlus className="group-hover:rotate-180 duration-500" />Contact</li>
           </ul>
         </div>
 
         <div className="">
           <h2 className="text-xl font-bold pb-5">Our Services</h2>
           <ul className="leading-9">
-            <li className="flex items-center gap-2"><LuPlus />Architecture Design</li>
-            <li className="flex items-center gap-2"><LuPlus />Town Planning</li>
-            <li className="flex items-center gap-2"><LuPlus />Structure Design</li>
-            <li className="flex items-center gap-2"><LuPlus />Consultation</li>
+            <li className="flex items-center gap-2 group"><LuPlus className="group-hover:rotate-180 duration-500" />Architecture Design</li>
+            <li className="flex items-center gap-2 group"><LuPlus className="group-hover:rotate-180 duration-500" />Town Planning</li>
+            <li className="flex items-center gap-2 group"><LuPlus className="group-hover:rotate-180 duration-500" />Structure Design</li>
+            <li className="flex items-center gap-2 group"><LuPlus className="group-hover:rotate-180 duration-500" />Consultation</li>
           </ul>
         </div>
 

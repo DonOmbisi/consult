@@ -8,12 +8,14 @@ import About from "./pages/About";
 import Teams from "./pages/Teams";
 import Service from "./pages/Service";
 import Portfolio from "./pages/Portfolio";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
 
   return (
     <>
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Landing />}  />

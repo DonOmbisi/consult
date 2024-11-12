@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useRef } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Autoplay, EffectFade } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/effect-fade";
+import "swiper/css/pagination";
+import HeroBanner from "../../data/HeroBanner.json";
 
 const Hero = () => {
+  const swiperRef = useRef(null);
+
   return (
     <>
       {/* <div className="flex items-center bg-[#F3F0EE] text-gray-200 pb-8 relative font-vastago">
@@ -24,29 +32,41 @@ const Hero = () => {
         </div>
       </div> */}
 
-      <div className="bg-[url('/images/mainherobg.jpg')] pb-16 pt-6 h-[100vh] bg-cover bg-left-top">
-        <div className="container flex gap-16 items-center">
-        <div className="w-[60%]">
-          <div className="text-black text-[75px] leading-[5rem]">
-            <h2>Innovation & Disruption for a</h2>
-            <h2 className="">
-              <span className="text-[#897968]">Positive</span> Impact
-            </h2>
-            <button className="text-lg mt-12 text-[#897968] border p-2 px-6 border-[#897968] rounded-lg">
-              Find Out More
-            </button>
+      <div className="relative">
+      <Swiper
+        loop={true}
+        autoplay={{
+          delay: 4000,
+          disableOnInteraction: false,
+        }}
+        effect={"fade"}
+        pagination={false}
+        modules={[Pagination, Autoplay, EffectFade]}
+        className="mySwiper"
+        onSwiper={(swiper) => {
+          swiperRef.current = swiper; // Store the Swiper instance
+        }}
+      >
+        {HeroBanner.map((items, index) => (
+        <SwiperSlide key={index}>
+        <div style={{backgroundImage : `url(${items?.image})`}} className="pb-16 pt-6 h-[100vh] bg-cover bg-left-top flex ">
+          <div className="w-full h-[100vh] bg-black bg-opacity-30 absolute z-10 top-0"></div>
+          <div className="container flex gap-16 items-center mt-20 text-white z-20">
+            <div className="w-[50%] p-6 rounded-xl">
+              <div className="text-[75px] leading-[5rem]">
+                <h2>{items?.title}</h2>
+                <button className="text-lg mt-12 text- border p-2 px-6 border- rounded-lg">
+                  Find Out More
+                </button>
+              </div>
+            </div>
+
+            <div className=""></div>
           </div>
         </div>
-
-        <div className="w-[40%] relative h-[100vh]">
-          {/* <div className="flex">
-          <img src="/images/herobg.jpg" alt="" className="w-[40%] h-[70vh] rounded-t-full rounded-b-full object-cover absolute left-16 bottom-0" />
-          <div className="absolute w-[40%] h-[70vh] rounded-t-full rounded-b-full bg-black opacity-40 left-16 bottom-0"></div>
-          <img src="/images/herobg3.png" alt="" className="w-[40%] h-[70vh] rounded-t-full rounded-b-full object-cover absolute right-8 " />
-          <div className="absolute right-8  w-[40%] h-[70vh] rounded-t-full rounded-b-full bg-black opacity-40"></div>
-          </div> */}
-        </div>
-        </div>
+        </SwiperSlide>
+        ))}
+      </Swiper>
       </div>
     </>
   );

@@ -15,7 +15,7 @@ const CEOMessage = () => {
                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque enim ipsam consectetur numquam provident delectus voluptatum, deserunt voluptatibus molestias saepe officia rerum eveniet culpa expedita id placeat quo dolorum. Beatae!</p>
                <div className='flex items-center gap-8 pt-12'>
                     <div>
-                         <h2 className='font-bold text-lg'>Warrent Buffer</h2>
+                         <h2 className='font-bold text-lg'>Warren Buffett</h2>
                          <p>CEO</p>
                     </div>
                     <div>
