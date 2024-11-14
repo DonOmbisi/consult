@@ -2,10 +2,15 @@ import React from 'react'
 import { HiOutlineArrowUpRight } from "react-icons/hi2";
 import { MdOutlineDesignServices, MdArchitecture, MdOutlineHomeWork } from "react-icons/md";
 
-const AboutFeature = () => {
+const Steps = () => {
   return (
     <>
-     <div className='container flex gap-5 justify-between mt-20 py-12'>
+
+    <div className='mt-20 mb-5 container text-center'>
+     <h3 className='font-bold text-sm uppercase mb-3'>Steps by Steps</h3>
+     <h2 className='text-4xl font-bold '>Explore Our Unique Process and Approach</h2>
+    </div>
+     <div className='container flex gap-5 justify-between py-12'>
           <div className='bg-[url("/images/ForAbout/plan.jpg")] bg-cover bg-bottom text-center rounded-lg text-white group'>
                <div className='bg-black hover:bg-opacity-80 duration-300 bg-opacity-50 p-8 h-[65vh] flex flex-col justify-center rounded-lg'>
                <i className='text-5xl mx-auto text-gray-300 pb-5'><MdArchitecture /></i>
@@ -36,4 +41,4 @@ const AboutFeature = () => {
   )
 }
 
-export default AboutFeature
+export default Steps;

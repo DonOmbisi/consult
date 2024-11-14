@@ -8,7 +8,7 @@ const MainTeams = () => {
       </div>
 
       <div className="">
-      <div className="container flex pt-20 pb-8 items-center">
+      <div className="container flex pt-32 pb-8 items-center">
         <div className="flex-1">
           <h3 className="uppercase text-sm font-bold">our Teams</h3>
           <h2 className="font-bold text-5xl w-[90%] py-6 pb-8">A Task Approached With Great Commitment</h2>

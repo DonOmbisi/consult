@@ -4,7 +4,7 @@ import { IoCheckmarkDoneOutline } from "react-icons/io5";
 const AboutCompany = () => {
   return (
     <>
-     <div className='container pt-24 flex gap-16 items-center'>
+     <div className='container py-24 pb-28 flex gap-16 items-center'>
           <div className='flex-1'><img src="/images/ForAbout/about1.png" alt="" /></div>
           <div className='flex-1'>
                <h3 className='font-bold text-sm uppercase'>about our company</h3>

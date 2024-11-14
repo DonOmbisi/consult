@@ -82,4 +82,4 @@ const WhatWeOffer = () => {
   )
 }
 
-export default WhatWeOffer
+export default WhatWeOffer;
