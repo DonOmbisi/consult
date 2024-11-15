@@ -8,8 +8,8 @@ const MainTeams = () => {
       </div>
 
       <div className="">
-      <div className="container flex pt-32 pb-8 items-center">
-        <div className="flex-1">
+      <div className="container md:flex pt-32 pb-8 items-center px-4 md:px-0">
+        <div className="flex-1 pb-14">
           <h3 className="uppercase text-sm font-bold">our Teams</h3>
           <h2 className="font-bold text-5xl w-[90%] py-6 pb-8">A Task Approached With Great Commitment</h2>
           <p className="w-[80%] pb-10">
@@ -22,7 +22,7 @@ const MainTeams = () => {
         </div>
 
         <div className="flex-1">
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-2 gap-3 md:gap-6">
 
             <div className="relative group">
               <img

@@ -6,7 +6,7 @@ import { MdOutlineMail, MdOutlinePhone } from "react-icons/md";
 const Footer = () => {
   return (
     <div className="bg-[url('/images/footerbg.png')] bg-center text-white">
-      <div className="container grid grid-cols-4 gap-20 py-20">
+      <div className="container grid md:grid-cols-2 lg:grid-cols-4 gap-20 py-20 px-4 md:px-0">
         <div className="">
           <img src="/images/logo2.webp" alt="" className="pb-5" />
           <p className="text-sm">
@@ -45,8 +45,8 @@ const Footer = () => {
         </div>
       </div> <hr className="border border-gray-500" />
 
-      <div className="flex justify-between container py-5">
-        <p>SysQube copyright © 2024. All Rights Reserved.</p>
+      <div className="md:flex justify-between container py-5 text-center">
+        <p className="pb-4 md:pb-0">SysQube copyright © 2024. All Rights Reserved.</p>
         <p>Design & Developed by SysQube Technology</p>
       </div>
     </div>

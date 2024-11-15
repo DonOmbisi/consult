@@ -49,13 +49,13 @@ const Hero = () => {
       >
         {HeroBanner.map((items, index) => (
         <SwiperSlide key={index}>
-        <div style={{backgroundImage : `url(${items?.image})`}} className="pb-16 pt-6 h-[100vh] bg-cover bg-left-top flex ">
+        <div style={{backgroundImage : `url(${items?.image})`}} className="pb-16 pt-6 h-[90vh]  md:h-[100vh] bg-cover bg-center lg:bg-left-top flex ">
           <div className="w-full h-[100vh] bg-black bg-opacity-30 absolute z-10 top-0"></div>
-          <div className="container flex gap-16 items-center mt-20 text-white z-20">
-            <div className="w-[50%] p-6 rounded-xl">
-              <div className="text-[75px] leading-[5rem]">
+          <div className="container flex gap-16 items-center mt-28 md:mt-20 text-white z-20">
+            <div className="lg:w-[50%] p-6 rounded-xl">
+              <div className="md:text-[75px] text-4xl md:leading-[5rem]">
                 <h2>{items?.title}</h2>
-                <button className="text-lg mt-12 text- border p-2 px-6 border- rounded-lg">
+                <button className="text-lg mt-8 md:mt-12 border p-2 px-6 border- rounded-lg">
                   Find Out More
                 </button>
               </div>

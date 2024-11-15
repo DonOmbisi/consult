@@ -3,7 +3,7 @@ import React from 'react'
 const Feature = () => {
   return (
     <>
-     <div className='container flex justify-between gap-20 py-20'>
+     <div className='hidden container md:flex justify-between gap-20 py-20'>
           <div className='flex gap-6'>
                <div><img src="/images/ForFeature/feature2.png" alt="" className='w-40' /></div>
                <div>

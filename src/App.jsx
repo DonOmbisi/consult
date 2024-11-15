@@ -9,6 +9,7 @@ import Teams from "./pages/Teams";
 import Service from "./pages/Service";
 import Portfolio from "./pages/Portfolio";
 import ScrollToTop from "./components/ScrollToTop";
+import PortfolioInner from "./pages/PortfolioInner";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/teams" element={<Teams />}  />
         <Route path="/service" element={<Service />}  />
         <Route path="/portfolio" element={<Portfolio />}  />
+        <Route path="/portfolio/:category" element={<PortfolioInner />}  />
         <Route path="/contact" element={<Contact />}  />
       </Routes>
       <Footer />

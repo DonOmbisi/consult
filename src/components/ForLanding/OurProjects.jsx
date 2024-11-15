@@ -43,9 +43,9 @@ const OurProjects = () => {
       </div>
 
       <div className="bg-[url('/images/projectbg.png')]">
-      <div className="container flex py-28">
-        <div className="flex-1">
-          <div className="sticky top-52 mt-20">
+      <div className="container md:flex py-16 md:py-28 px-4 md:px-0">
+        <div className="flex-1 pb-14 md:pb-0">
+          <div className="sticky top-52 md:mt-20">
           <h3 className="uppercase text-sm font-bold">our projects</h3>
           <h2 className="font-bold text-5xl w-[90%] py-6 pb-8">A Task Approached With Great Commitment</h2>
           <p className="w-[80%] pb-10">

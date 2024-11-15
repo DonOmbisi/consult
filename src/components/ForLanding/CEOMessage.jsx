@@ -3,7 +3,7 @@ import React from 'react'
 const CEOMessage = () => {
   return (
     <>
-     <div className='container flex gap-12 items-center pt-6 pb-28'>
+     <div className='container flex flex-col md:flex-row gap-12 items-center pt-6 pb-28 px-4 md:px-0'>
 
           <div className='flex-1 '>
                <img src="/images/ceoimg.jpg" alt="" className="rounded-lg" />

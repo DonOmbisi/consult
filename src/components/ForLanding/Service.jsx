@@ -14,15 +14,15 @@ const Service = () => {
   return (
     <>
       <div className='bg-[url("/images/servicebg.jpg")] bg-cover'>
-        <div className="text-center py-20 bg-white bg-opacity-50">
-          <h3 className="text-lg w-[8%] border-l-2 border-[#1F3745] mx-auto text-[#1F3745] mb-5">
+        <div className="text-center py-20 bg-white bg-opacity-50 px-4 md:px-0">
+          <h3 className="text-lg lg:w-[8%] w-[35%] md:w-[20%] border-l-2 border-[#1F3745] mx-auto text-[#1F3745] mb-5">
             What We Do
           </h3>
           <h2 className="text-4xl">Services That Help You Grow.</h2>
         </div>
 
         <div className="bg-white bg-opacity-50 pb-20">
-          <div className="container relative">
+          <div className="container relative px-4 md:px-0">
             <Swiper
               ref={swiperRef} // Attach the ref to Swiper
               modules={[Navigation, Pagination]}

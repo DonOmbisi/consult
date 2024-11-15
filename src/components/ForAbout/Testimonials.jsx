@@ -13,17 +13,17 @@ const Testimonials = () => {
 
   return (
     <>
-      <div className="container pb-20">
+      <div className="container pb-20 px-4 md:px-0">
         <div className="text-center py-20 pb-16">
           <h3 className="font-bold text-sm uppercase pb-3">Our Clients</h3>
           <h2 className="text-4xl font-bold">What People Says About Us</h2>
         </div>
 
-<div className="flex gap-8 h-[85vh] items-center">
-          <div className="w-[50%] h-full">
+<div className="lg:flex gap-8 lg:h-[85vh] items-center">
+          <div className="hidden lg:block lg:w-[50%] h-full">
                <img src="/images/ForClients/clientmainimg.jpg" alt="" className="h-full object-cover object-right rounded-lg" />
           </div>
-     <div className="w-[50%] relative">
+     <div className="lg:w-[50%] relative">
         <Swiper
           ref={swiperRef} // Attach the ref to Swiper
           modules={[Navigation, Pagination, Autoplay ]}
@@ -38,7 +38,7 @@ const Testimonials = () => {
               spaceBetween: 10,
             },
             768: {
-              slidesPerView: 2,
+              slidesPerView: 1,
               spaceBetween: 20,
             },
             1024: {

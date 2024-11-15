@@ -4,7 +4,7 @@ import { IoCheckmarkDoneOutline } from "react-icons/io5";
 const OurService = () => {
   return (
     <>
-      <div className="container py-20 flex gap-16 items-center">
+      <div className="container py-20 flex md:flex-row flex-col-reverse gap-16 items-center px-4 md:px-0">
         <div className="flex-1">
           <img src="/images/ForService/ourservice1.jpg" alt="" />
         </div>

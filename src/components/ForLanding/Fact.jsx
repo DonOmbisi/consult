@@ -22,7 +22,7 @@ const Fact = () => {
         </div> 
       </div> */}
 
-      <div className="container flex justify-between items-center py-20 gap-14 ">
+      <div className="container md:flex justify-between items-center py-20 gap-14 px-4 md:px-0 space-y-12 md:space-y-auto">
         <div>
           <h2 className="text-7xl font-bold text-[#1F3745]">92</h2>
           <h3 className="text-2xl font-bold py-2 text-[#1F3745]">No of Clients</h3>
