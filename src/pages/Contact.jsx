@@ -12,8 +12,8 @@ const Contact = () => {
           <div className='flex-1 pb-16 md:pb-0'>
                <h3 className='uppercase text-sm tracking-widest font-bold'>contact us</h3>
                <div className='py-8 pt-5'>
-               <h2 className='text-6xl font-bold text-[#1F3745]'>Have Questions?</h2>
-               <h2 className='text-6xl font-bold text-[#1F3745]'>Get in Touch!</h2>
+               <h2 className='text-5xl md:text-6xl font-bold text-[#1F3745]'>Have Questions?</h2>
+               <h2 className='text-5xl md:text-6xl font-bold text-[#1F3745]'>Get in Touch!</h2>
                </div>
                <p className='w-[90%] pb-8'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae reprehenderit omnis quo sed repellat cupiditate.</p>
                <ul className='leading-10'>

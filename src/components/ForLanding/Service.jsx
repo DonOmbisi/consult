@@ -76,10 +76,10 @@ const Service = () => {
                 </SwiperSlide>
               ))}
             </Swiper>
-            <button onClick={() => swiperRef.current.swiper.slidePrev()}>
+            <button className="hidden md:block" onClick={() => swiperRef.current.swiper.slidePrev()}>
               <SlArrowLeft className="rounded-full text-3xl text-gray-500 absolute top-1/2 -left-16 z-30" />
             </button>
-            <button onClick={() => swiperRef.current.swiper.slideNext()}>
+            <button className="hidden md:block" onClick={() => swiperRef.current.swiper.slideNext()}>
               <SlArrowRight className="rounded-full text-3xl text-gray-500 absolute top-1/2 -right-16" />
             </button>
           </div>
