@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 import HeroBanner from "../../data/HeroBanner.json";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const swiperRef = useRef(null);
@@ -55,9 +56,11 @@ const Hero = () => {
             <div className="lg:w-[50%] p-6 rounded-xl">
               <div className="md:text-[75px] text-4xl md:leading-[5rem]">
                 <h2>{items?.title}</h2>
+                <Link to="/service">
                 <button className="text-lg mt-8 md:mt-12 border p-2 px-6 border- rounded-lg">
                   Find Out More
                 </button>
+                </Link>
               </div>
             </div>
 

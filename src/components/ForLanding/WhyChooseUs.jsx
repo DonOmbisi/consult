@@ -1,5 +1,6 @@
 import React from 'react'
 import { HiOutlineArrowUpRight } from "react-icons/hi2";
+import { Link } from 'react-router-dom';
 
 const WhyChooseUs = () => {
   return (
@@ -9,7 +10,9 @@ const WhyChooseUs = () => {
             <h3 className='font-bold uppercase text-sm pb-4'>Why choose us</h3>
           <h2 className='text-4xl md:text-5xl'>World's Leading Building Corporation</h2>
           <p className=' py-10'>To further develop our corporate strengths we have established a corporate mandate to maintain strong core values that truly reflect the companys philosophy.</p>
+          <Link to="/about">
           <button className='border-b pb-1 flex items-center gap-2'>About Us <HiOutlineArrowUpRight /></button>
+          </Link>
           </div>
 
           <img src="/images/ribbon.png" alt="" className='w-14 absolute -top-[7px] right-0' />

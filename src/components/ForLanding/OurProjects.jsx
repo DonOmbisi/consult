@@ -1,5 +1,6 @@
 import React from "react";
 import { HiOutlineArrowUpRight } from "react-icons/hi2";
+import { Link } from "react-router-dom";
 
 const OurProjects = () => {
   return (
@@ -52,9 +53,11 @@ const OurProjects = () => {
             Sed ut perspiciatis unde omnis iste natus ut perspic iatis unde
             omnis iste perspiciatis ut perspiciatis unde omnis iste.
           </p>
+          <Link to="/portfolio">
           <button className="p-3 px-8 bg-[#1F3745] text-white rounded-lg">
             More Projects
           </button>
+          </Link>
           </div>
         </div>
 

@@ -16,7 +16,7 @@ const Services = () => {
                {ServiceItems.slice(0, 2).map((items, index) => (
                     <div key={index} className='border border-gray-300 shadow-lg rounded-xl overflow-hidden relative'>
                          <img src={items?.image} alt="" className='aspect-[1/1]' />
-                         <div className='flex items-center justify-between p-4 absolute bottom-0 backdrop-blur-sm bg-black bg-opacity-35 w-full text-white'>
+                         <div className='flex items-center justify-between p-4 absolute bottom-0 backdrop-blur-sm bg-black bg-opacity-35 w-full text-white rounded-b-xl'>
                               <h2 className='p-1 bg-gray-200 rounded-full px-4 text-black'>{items?.name}</h2>
                               <button className='flex items-center gap-2'>View More <GoArrowUpRight /></button>
                          </div>
@@ -28,7 +28,7 @@ const Services = () => {
                {ServiceItems.slice(2, 5).map((items, index) => (
                     <div key={index} className='border border-gray-300 shadow-lg rounded-xl overflow-hidden relative'>
                          <img src={items?.image} alt="" className='aspect-[1/1]' />
-                         <div className='flex items-center justify-between p-4 absolute bottom-0 backdrop-blur-sm bg-black bg-opacity-35 w-full text-white'>
+                         <div className='flex items-center justify-between p-4 absolute bottom-0 backdrop-blur-sm bg-black bg-opacity-35 w-full text-white rounded-b-xl'>
                               <h2 className='p-1 bg-gray-200 rounded-full px-4 text-black'>{items?.name}</h2>
                               <button className='flex items-center gap-2'>View More <GoArrowUpRight /></button>
                          </div>
