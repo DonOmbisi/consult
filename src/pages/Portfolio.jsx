@@ -15,9 +15,17 @@ const Portfolio = () => {
           <h3 className='font-bold text-sm uppercase mb-5'>Our Project</h3>
           <h2 className='text-4xl font-bold'>We create places that deserve to be called home.</h2>
         </div>
+        <a 
+            href="https://drive.google.com/file/d/1xPVN1Ff0sgoKo1hNjhMtBsUaxVl3BKcL/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-4 px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+          >
+            PDF Document
+          </a>
 
         <div className='flex-1'>
-          <p className='mb-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+          <p className='mb-5'></p>
           <button className='p-3 px-10 bg-[#1F3745] text-white rounded-lg'>Contact</button>
         </div>
       </div>
@@ -29,7 +37,7 @@ const Portfolio = () => {
               <div></div>
               <div className='text-white w-full p-8 bg-black bg-opacity-50 absolute bottom-0 translate-y-64 group-hover:-translate-y-0 duration-500 backdrop-blur-sm'>
               <h2 className='text-2xl font-bold'>{items?.name}</h2>
-              <p className='py-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, dolorem.</p>
+              <p className='py-3'></p>
               <Link to={`/portfolio/${items?.path}`}>
                <button className='flex items-center gap-2'>View More <GoArrowRight /></button>
               </Link>

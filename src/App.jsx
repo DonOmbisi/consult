@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
-import Teams from "./pages/Teams";
+import Qualitysoil from "./pages/Qualitysoil";
 import Service from "./pages/Service";
 import Portfolio from "./pages/Portfolio";
 import ScrollToTop from "./components/ScrollToTop";
@@ -21,7 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />}  />
         <Route path="/about" element={<About />}  />
-        <Route path="/teams" element={<Teams />}  />
+        <Route path="/Qualitysoil" element={<Qualitysoil />}  />
         <Route path="/service" element={<Service />}  />
         <Route path="/portfolio" element={<Portfolio />}  />
         <Route path="/portfolio/:category" element={<PortfolioInner />}  />

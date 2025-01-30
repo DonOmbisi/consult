@@ -14,8 +14,7 @@ const OurService = () => {
             Architecture adds efficiency to every space in your life.
           </h2>
           <p className="py-5 pb-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            
           </p>
           <ul className="grid grid-cols-1 gap-4">
             <li className="flex items-center gap-3">

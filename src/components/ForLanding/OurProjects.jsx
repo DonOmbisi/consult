@@ -9,7 +9,7 @@ const OurProjects = () => {
         {/* <div className='container'>
      <div className='flex justify-between items-center py-16 pt-20'>
           <div>
-               <h2 className='text-4xl font-bold mb-2'>Meet our export team</h2>
+               <h2 className='text-4xl font-bold mb-2'>Meet our expert team</h2>
                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
           </div>
           <div>
@@ -21,7 +21,7 @@ const OurProjects = () => {
           <div className='flex bg-white p-5 rounded-lg gap-8 items-center border border-gray-200 shadow-md'>
                <div><img src="/images/ForTeams/teams1.jpg" alt="team image" className='w-64 rounded-lg' /></div>
                <div>
-                    <h2 className='text-xl font-bold'>John Andreson, CPA</h2>
+                    <h2 className='text-xl font-bold'>John Anderson, CPA</h2>
                     <p className='pb-8'>Founder & CEO</p>
                          <div><button className='p-1 px-5 mb-3 rounded-xl bg-gray-200 text-gray-600'>Financial strategy</button></div>
                          <div><button className='p-1 px-5 mb-3 rounded-xl bg-gray-200 text-gray-600'>Industry leadership</button></div>
@@ -50,8 +50,7 @@ const OurProjects = () => {
           <h3 className="uppercase text-sm font-bold">our projects</h3>
           <h2 className="font-bold text-5xl w-[90%] py-6 pb-8">A Task Approached With Great Commitment</h2>
           <p className="w-[80%] pb-10">
-            Sed ut perspiciatis unde omnis iste natus ut perspic iatis unde
-            omnis iste perspiciatis ut perspiciatis unde omnis iste.
+            
           </p>
           <Link to="/portfolio">
           <button className="p-3 px-8 bg-[#1F3745] text-white rounded-lg">

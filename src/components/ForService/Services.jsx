@@ -11,7 +11,7 @@ const Services = () => {
           <div className='border border-gray-300 shadow-lg rounded-xl flex flex-col justify-center p-12'>
                <h3 className='font-bold text-sm uppercase'>Our export services</h3>
                <h2 className='text-3xl lg:text-4xl font-bold py-1 pb-4'>We are Exports In</h2>
-               <p className='md:hidden lg:block'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem reprehenderit eos maxime veniam placeat id culpa animi repudiandae, voluptatibus deserunt.</p>
+               <p className='md:hidden lg:block'></p>
           </div>
                {ServiceItems.slice(0, 2).map((items, index) => (
                     <div key={index} className='border border-gray-300 shadow-lg rounded-xl overflow-hidden relative'>

@@ -2,37 +2,37 @@
      {
           "id": 1,
           "name": "Construction",
-          "image": "/images/ForPortfolio/cat1.jpg",
+          "image": "/images/ForPortfolio/1.jpg",
           "path": "construction"
      },
      {
           "id": 2,
           "name": "Restoration",
-          "image": "/images/ForPortfolio/cat2.jpg",
+          "image": "/images/ForPortfolio/2.jpg",
           "path": "restoration"
      },
      {
           "id": 3,
           "name": "Interior Design",
-          "image": "/images/ForPortfolio/cat3.jpg",
+          "image": "/images/ForPortfolio/3.jpg",
           "path": "interior-design"
      },
      {
           "id": 4,
           "name": "Planning",
-          "image": "/images/ForPortfolio/cat4.jpg",
+          "image": "/images/ForPortfolio/4.jpg",
           "path": "planning"
      },
      {
           "id": 5,
           "name": "Town Planning",
-          "image": "/images/ForPortfolio/cat5.jpg",
+          "image": "/images/ForPortfolio/5.jpg",
           "path": "town-planing"
      },
      {
           "id": 6,
           "name": "Concept Design",
-          "image": "/images/ForPortfolio/cat6.jpg",
+          "image": "/images/ForPortfolio/6.jpg",
           "path": "concept-design"
      }
 ]

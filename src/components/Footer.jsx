@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="">
           <img src="/images/logo2.webp" alt="" className="pb-5" />
           <p className="text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam libero error odio repellendus? Adipisci.
+            
           </p>
         </div>
 
@@ -38,16 +38,16 @@ const Footer = () => {
         <div className="">
           <h2 className="text-xl font-bold pb-5">Contact Us</h2>
           <ul className="leading-9">
-            <li className="flex items-center gap-2"><BiCurrentLocation className="text-xl" />kathmandu, Nepal</li>
-            <li className="flex items-center gap-2"><MdOutlineMail className="text-xl" />info@example.com</li>
-            <li className="flex items-center gap-2"><MdOutlinePhone className="text-xl" />9801234567</li>
+            <li className="flex items-center gap-2"><BiCurrentLocation className="text-xl" />Nairobi, Kenya</li>
+            <li className="flex items-center gap-2"><MdOutlineMail className="text-xl" />info@gridconsult.co.ke/gridconsulteng@gmail.com</li>
+            <li className="flex items-center gap-2"><MdOutlinePhone className="text-xl" />+254 202013921 / 0722885687</li>
           </ul>
         </div>
       </div> <hr className="border border-gray-500" />
 
       <div className="md:flex justify-between container py-5 text-center">
-        <p className="pb-4 md:pb-0">SysQube copyright © 2024. All Rights Reserved.</p>
-        <p>Design & Developed by SysQube Technology</p>
+        <p className="pb-4 md:pb-0">GAIA copyright © 2025. All Rights Reserved.</p>
+        <p>Design & Developed by GAIA Technology</p>
       </div>
     </div>
   );

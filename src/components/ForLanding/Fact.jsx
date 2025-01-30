@@ -26,17 +26,17 @@ const Fact = () => {
         <div>
           <h2 className="text-7xl font-bold text-[#1F3745]">92</h2>
           <h3 className="text-2xl font-bold py-2 text-[#1F3745]">No of Clients</h3>
-          <p>I have been a loyal customer of this auto parts company for years and I cannot recommend them enough.</p>
+          <p>I have been a loyal customer of this consultancy for years and I cannot recommend them enough.</p>
         </div>
         <div>
           <h2 className="text-7xl font-bold text-[#1F3745]">10+</h2>
           <h3 className="text-2xl font-bold py-2 text-[#1F3745]">Years of experience</h3>
-          <p>I have been a loyal customer of this auto parts company for years and I cannot recommend them enough.</p>
+          <p>I have been a loyal customer of this consultancy for years and I cannot recommend them enough.</p>
         </div>
         <div>
           <h2 className="text-7xl font-bold text-[#1F3745]">75+</h2>
           <h3 className="text-2xl font-bold py-2 text-[#1F3745]">Completed Projects</h3>
-          <p>I have been a loyal customer of this auto parts company for years and I cannot recommend them enough.</p>
+          <p>I have been a loyal customer of this consultancy for years and I cannot recommend them enough.</p>
         </div>
       </div>
     </>

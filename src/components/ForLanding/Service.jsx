@@ -63,8 +63,7 @@ const Service = () => {
                   <div className="bg-white text-center rounded-b-xl p-6 px-7 flex flex-col items-center relative">
                     <h2 className="text-xl font-bold">{item?.name}</h2>
                     <p className="text-sm mt-3 line-clamp-2 z-10">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Repellat, libero.
+                      
                     </p>
                     <button className="mt-5 flex items-center gap-2 border-b border-black">
                       Learn More <TfiArrowTopRight />

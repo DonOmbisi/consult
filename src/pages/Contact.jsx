@@ -15,11 +15,11 @@ const Contact = () => {
                <h2 className='text-5xl md:text-6xl font-bold text-[#1F3745]'>Have Questions?</h2>
                <h2 className='text-5xl md:text-6xl font-bold text-[#1F3745]'>Get in Touch!</h2>
                </div>
-               <p className='w-[90%] pb-8'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae reprehenderit omnis quo sed repellat cupiditate.</p>
+               <p className='w-[90%] pb-8'></p>
                <ul className='leading-10'>
-                    <li className='flex items-center gap-3'><CiLocationOn className='text-xl' />Kathmandu, Nepal</li>
-                    <li className='flex items-center gap-3'><CiPhone className='text-xl' />980134567</li>
-                    <li className='flex items-center gap-3'><CiMail className='text-xl' />info@example.com</li>
+                    <li className='flex items-center gap-3'><CiLocationOn className='text-xl' />Nairobi, Kenya</li>
+                    <li className='flex items-center gap-3'><CiPhone className='text-xl' />+254202013921 / 0722885687</li>
+                    <li className='flex items-center gap-3'><CiMail className='text-xl' />gridconsulteng@gmail.com</li>
                </ul>
           </div>
 
@@ -36,7 +36,7 @@ const Contact = () => {
 
      </div>
           <div className='container rounded-lg overflow-hidden border border-gray-300 shadow-lg mb-20 w-full h-[60vh] md:h-[40vh] lg:h-[60vh]'>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.162207336234!2d85.32924847507972!3d27.68138107619754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19c757b96f8f%3A0x3e02763a2f6ff4e6!2sSysQube%20Technology%20Pvt.Ltd.!5e0!3m2!1sen!2snp!4v1731218117206!5m2!1sen!2snp" width="100%" height="100%" style={{border: 0, outline: "none", filter: "grayscale(0.5) contrast(1.2) hue-rotate(180deg) opacity(0.8)"}} referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.3441071958964!2d36.740874974543765!3d-1.3327257986546388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1ad968ce8f5f%3A0xa7eba0eb79e2c5a!2sProfessional%20House%2C%20Professional%20Consultants%20Ltd!5e1!3m2!1sen!2ske!4v1738255311384!5m2!1sen!2ske" width="100%" height="100%" style={{border: 0, outline: "none", filter: "grayscale(0.5) contrast(1.2) hue-rotate(180deg) opacity(0.8)"}} referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
     </>
   )
