@@ -13,7 +13,7 @@ const OurValue = () => {
           <div className='md:w-[40%] text-center px-4 md:px-0'>
           <h3 className='text-sm font-bold uppercase'>Our value</h3>
           <h2 className='text-4xl font-bold py-6'>Good architecture begins with good communication</h2>
-          <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+          <p className=''></p>
           </div>
           </div>
      </div>

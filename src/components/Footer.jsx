@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="bg-[url('/images/footerbg.png')] bg-center text-white">
       <div className="container grid md:grid-cols-2 lg:grid-cols-4 gap-20 py-20 px-4 md:px-0">
         <div className="">
-          <img src="/images/logo2.webp" alt="" className="pb-5" />
+          <img src="/images/main.jpg" alt="" className="pb-5" />
           <p className="text-sm">
             
           </p>

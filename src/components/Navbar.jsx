@@ -44,7 +44,7 @@ const Navbar = () => {
       className={`text-white fixed top-5 z-50 container right-0 left-0 transition-transform duration-500 px-3 md:px-0 ${
         showNavbar ? 'translate-y-0' : '-translate-y-[8rem]'}`}>
       <div className='p-5 px-6 flex justify-between items-center bg-black bg-opacity-40 backdrop-blur-[7px] rounded-full'>
-      <Link to="/"><div><img src="/images/logo2.webp" alt="logo" className='w-36' /></div></Link>
+      <Link to="/"><div><img src="/images/main.jpg" alt="logo" className='w-36' /></div></Link>
         <div>
           <ul className='md:flex items-center gap-8 hidden'>
             <Link to="/"><li>Home</li></Link>
